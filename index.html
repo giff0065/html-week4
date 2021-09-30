@@ -11,15 +11,39 @@
         <h1>HTML Week 4 - Images, Links, Forms, and Tables</h1>
         <nav>
           <a href="about.html">About</a>
+          <a href="#cats">Cats</a>
         </nav>
     </header>
     <main>
       <!-- src or source is an attribute tells the image tag which it should be-->
-<img src="images/kitten.jpg" alt="Kitten on a blanket" width="300" title="Cute Kitty Cat" />
+<img src="images/kitten.jpg" alt="Kitten on a blanket" width="2000" title="Cute Kitty Cat" />
 <article>
   <!-- the Anchor tag creates a link, The text in the open and close tags is the text,_blank is a new tab-->
   <a href="https://google.ca" target="_blank">Google</a>
 </article>
+
+<article id="cats">
+<p>Things cats do</p>
+<ul>
+  <li>Death looks</li>
+  <li>Attacks Things</li>
+  <li>Meows</li>
+</ul>
+</article>
+<form action="index.html" method="get">
+<p>
+  <label for="username">Username</label>
+  <input id="username" type="text" name="username">
+</p>
+<p>
+  <label for="pass">Password</label>
+  <input id="pass" type="password">
+</p>
+<p>
+  <label for="col">Pick a colour: </label>
+  <input id="col" type="color">
+</p>
+</form>
     </main>
     <footer>
         <article>&copy; Somebody, Somewhere, 2021</article>
