@@ -32,8 +32,8 @@
 </article>
 <form action="index.html" method="get">
 <p>
-  <label for="username">Username</label>
-  <input id="username" type="text" name="username">
+  <label for="username">Name</label>
+  <input id="username" type="text" name="username" placeholder="Dick Roe" value="Mx. " required>
 </p>
 <p>
   <label for="pass">Password</label>
@@ -42,6 +42,39 @@
 <p>
   <label for="col">Pick a colour: </label>
   <input id="col" type="color">
+</p>
+<p>
+  <label for="num">Pick A Number</label>
+  <input id="num" type="range" name="num" value="5">
+</p>
+<p>
+  <labe for="info">Enter the info</labe>
+  <textarea id="info" name="info"></textarea>
+</p>
+<p>
+  <label for="fruit">Pick a fruit: </label>
+  <select id="fruit" name="fruit">
+    <option value="default"><i>Pick a Fruit....</i></option>
+    <option value="Banana">Banana</option>
+    <option value="queer">Jay</option>
+    <option value="pineapple">Pineapple</option>
+    <option value="apple">Apple</option>
+
+  </select>
+</p>
+<p>
+  <label for="spam">Spam me:</label>
+  <input type="checkbox" id="spam" name="spam" checked>
+</p>
+<p>
+  <span>Do you like cats:</span>
+  <label for="yes">Yes!</label>
+  <input type="radio" id="yes" name=cats>
+  <label for="no">No...</label>
+  <input type="radio" id="no" name="cats">
+</p>
+<p>
+  <button type="submit" name="submit">Submit!</button>
 </p>
 </form>
     </main>
